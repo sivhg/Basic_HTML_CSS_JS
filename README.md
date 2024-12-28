@@ -17,6 +17,6 @@ https://sivhg.github.io/Basic_HTML_CSS_JS/CSS/Buoi7/index<br>
  <h3>● JavaScript</h3><br>
  
 https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi8/switch_case<br>
-https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi9/switch_case<br>
-https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi10/switch_case<br>
-https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi11%2B12/regex_validate_form.html<br>
+https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi9/loop<br>
+https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi10/array<br>
+https://sivhg.github.io/Basic_HTML_CSS_JS/JS/Buoi11%2B12/regex_validate_form<br>
