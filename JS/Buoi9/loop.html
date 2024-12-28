@@ -1,0 +1,84 @@
+<!-- Tạo 1 input. Yêu cầu:
+
+In ra số chẵn, số lẻ, thập phân (*In ra số nguyên tố)
+In các số từ 1 tới số đó (*Từ số đó tới 1 nếu là số âm)
+**In ra đã nhập bao nhiêu số
+
+****Ấn phím enter để nhập thay vì ấn nút -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-color: grey;
+	}
+</style>
+<body>
+		Nhập vào số: 
+		<input type="number" id = "input_so">	
+		<br>
+		<button type = "button" onclick="button_check()">
+			Kiểm tra số chẵn lẻ
+		</button>
+		<button onclick="button_check_prime()" type="button">
+			Kiểm tra số nguyên tố
+		</button>
+		<button type="button" onclick="in_ra()">In ra danh sách số</button>
+		<button type="button" onclick="in_ra_nhap_bao_nhieu_so()">In ra đã nhập bao nhiêu số</button>
+	    <div id="ket_qua"></div>
+
+	<script type="text/javascript">
+		let count=0;
+		function button_check(){
+			count++
+			let so = parseInt(document.getElementById('input_so').value);
+			if (so % 2 === 0){
+				document.getElementById('ket_qua').innerHTML = ('Đây là số chẵn');
+			}else if (so % 2 === 1){
+				document.getElementById('ket_qua').innerHTML = ('Đây là số lẻ');
+			}else{
+				document.getElementById('ket_qua').innerHTML = ('Đây là số thập phân');
+			}
+		}
+		function button_check_prime(){
+			let i, dem = 0 ;
+			let so = parseInt(document.getElementById('input_so').value);
+			if(so > 1){
+				count++
+				for (i = 2; i < so; i++){
+				if (so % 2 == 0){
+					dem += 1;
+				}
+			}
+			if (dem != 0){
+				document.getElementById('ket_qua').innerHTML = ('Đây không phải là số nguyên tố');
+			}else{
+				document.getElementById('ket_qua').innerHTML = ('Đây là số nguyên tố');
+			}
+			}else{
+				document.getElementById('ket_qua').innerHTML = ('Số nguyên tố phải lớn hơn 1');
+			}
+		}
+		function in_ra(){
+			count++
+			let mang = [];
+			let so = parseInt(document.getElementById('input_so').value);
+			if(so > 1){
+				for(let i = 1; i <= so; i++){
+					mang.push(i);
+				}
+			} else {
+				for(let i = so; i <= 1; i++){
+					mang.push(i);
+				}
+			}
+			document.getElementById('ket_qua').innerHTML = mang;
+		}
+		function in_ra_nhap_bao_nhieu_so(){
+			document.getElementById('ket_qua').innerHTML = `Đã nhập ${count} số.`;
+		}
+	</script>
+</body>
+</html>
