@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div_tong{
+            width: 100%;
+            height: 700px;
+            /* background: red; */
+        }
+        #div_san_ho{
+            width: 22%;
+            height: 100%;
+            background: black;
+            float: left;
+            position: relative;
+        }
+        #div_vien{
+            width: 3.6%;
+            height: 100%;
+            background-image: url(soc.jpg);
+            float: left;
+        }
+        #div_sua{
+            width: 74%;
+            height: 100%;
+            background-image: url(sua1.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            float: left;
+        }
+        #div_sua > .tieu_de {
+            width: 70%;
+            height: 10%;
+            margin-left: 20px;
+            float: left;
+        }
+        #div_sua > .form {
+            width: 70%;
+            height: 90%;
+            margin-left: 50px;
+            float: left;
+        }
+        #div_sua > .hinh {
+            width: 20%;
+            height: 100%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="div_tong">
+        <div id="div_san_ho">
+            <img src="sanho.gif" style="width: 110%; z-index: 99; position: absolute;">
+        </div>
+        <div id="div_vien">
+
+        </div>
+        <div id="div_sua">
+            <div class="tieu_de">
+                <h1 style="color: red; text-decoration: bold; text-align: ce;">THAM GIA CLB</h1>
+            </div>
+            <div class="form">
+                Quý độc giả hãy điền đầy đủ thông tin để tham gia phát triển Câu lạc bộ
+                <br>
+                ngày càng vững mạnh hơn.
+                <form style="background-color: lightgreen;">
+                    <table>
+                        <tr>
+                            <td>
+                                Họ và tên:
+                            </td>
+                            <td>
+                                <input type="text" size="30">*
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Địa chỉ
+                            </td>
+                            <td>
+                                <input type="text" size="40">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email
+                            </td>
+                            <td>
+                                <input type="text" size="30">*
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Điện thoại
+                            </td>
+                            <td>
+                                <input type="text" size="20">*
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ngày sinh
+                            </td>
+                            <td>
+                                <input type="text" size="3"> / <input type="text" size="3"> / <input type="text" size="5">*
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Đề tài
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Tìm hiểu Sứa biển</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nhóm
+                            </td>
+                            <td>
+                                <input type="radio">Nghiên cứu <br>
+                                <input type="radio">Hải ngư <br>
+                                <input type="radio">Viễn dương <br>
+                                <input type="radio">Mỹ thuật <br>
+                                <input type="radio">Thực phẩm <br>
+                                <input type="radio">Sinh Viên <br>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gởi hình
+                            </td>
+                            <td>
+                                <input type="file">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tài liệu
+                            </td>
+                            <td>
+                                <input type="checkbox">Sinh vật Biển <br>
+                                <input type="checkbox">Các loài Sứa biển <br>
+                                <input type="checkbox">San hô <br>
+                                <input type="checkbox">Môi trường Biển <br>
+                                <input type="checkbox">Khí hậu <br>
+                            </td>
+                        </tr>               
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit">Tham gia</button>
+                                <button type="reset">Xóa thông tin</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="hinh">
+                <img src="nhom1b.jpg" alt="">
+                <img src="nhom1a.jpg" alt="">
+                <img src="nhom1c.jpg" alt="">
+                <img src="nhom1d.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

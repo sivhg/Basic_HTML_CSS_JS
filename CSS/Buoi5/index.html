@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div_tong{
+            width: 100%;
+            height: 700px;
+            background-color: pink;
+        }
+        #div_tren{
+            width: 100%;
+            height: 20%;
+            background-color: red;
+        }
+        #div_tren > .trai{
+            width: 40%;
+            height: 100%;
+            background-color: black;
+            float: left;
+        }
+        #div_tren > .phai{
+            width: 60%;
+            height: 100%;
+            background-color: yellow;
+            float: right;
+        }
+        #div_tren > .phai > .tren{
+            width: 100%;
+            height: 90%;
+            background-color: purple;
+            text-align: right;
+        }
+        #div_tren > .phai > .duoi{
+            width: 100%;
+            height: 10%;
+            background-color: green;
+            text-align: right;
+        }
+
+        /*div duoi*/
+        #div_duoi{
+            width: 100%;
+            height: 80%;
+            background-color: blue;
+        }
+        #div_duoi > .trai{
+            width: 22%;
+            height: 100%;
+            background-color: yellow;
+            float: left;
+            border-right: 5px solid green;
+        }
+        #div_duoi > .giua{
+            width: 59%;
+            height: 100%;
+            background-color: orange;
+            float: left;
+        }
+        #div_duoi > .phai{
+            width: 18%;
+            height: 100%;
+            background-color: blue;
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="div_tong">
+        <div id="div_tren">
+            <div class="trai">
+                <img src="logo.gif" style="height: 100%;">
+            </div>
+            <div class="phai">
+                <div class="tren">
+                    <form>
+                        <select>
+                            <option>Hội cây cảnh đắt tiền</option>
+                        </select>
+                        <button>gâu gâu</button>
+                    </form>
+                </div>
+                <div class="duoi">
+                    <a>
+                        <img src="n_hoavacc.gif">
+                    </a>
+                    <a>
+                        <img src="n_ttuc.gif">
+                    </a>
+                    <a>
+                        <img src="n_hopthu.gif">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="div_duoi">
+            <div class="trai">
+
+            </div>
+            <div class="giua">
+
+            </div>
+            <div class="phai">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
