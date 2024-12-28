@@ -4,7 +4,7 @@
 <h3>● HTML</h3><br>
 https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi1/bai1/index<br>
 https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi1/bai2/index<br>
-https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi2/bai1/index<br>
+https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi2/Bai1/index<br>
 https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi3/index<br>
 https://sivhg.github.io/Basic_HTML_CSS_JS/HTML/Buoi4/index<br>
 
